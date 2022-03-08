@@ -5,3 +5,7 @@ with
   vue.js 
   vuex
   bootstarp
+
+
+demo 
+https://steps-task.herokuapp.com
