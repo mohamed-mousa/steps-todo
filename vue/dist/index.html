@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="../src/assets/logo.png"><title>Sreps</title><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"><style>body {
+      padding-bottom: 30px;
+      align-items: center;
+      padding-bottom: 40px;
+      font-family: 'Cairo', sans-serif;
+      background-color: #161C30 !important;
+    }
+
+    .text-white-gray {
+      color: #b4b7bd !important;
+    }
+
+    .m-color-bg {
+      background-color: #fdb813 !important;
+      color: #fff !important;
+    }
+
+    .d-color-bg {
+      background-color: #283046 !important;
+      -webkit-box-shadow: 0 4px 24px 0 rgb(34 41 47 / 24%) !important;
+      box-shadow: 0 4px 24px 0 rgb(34 41 47 / 24%) !important;
+    }
+
+    .dd-color-bg {
+      background-color: #161C30 !important;
+      -webkit-box-shadow: 0 4px 24px 0 rgb(34 41 47 / 24%) !important;
+      box-shadow: 0 4px 24px 0 rgb(34 41 47 / 24%) !important;
+    }
+
+    .m-color-text {
+      color: #fdb813 !important;
+    }
+
+    .m-color-text-hover:hover {
+      color: #fdb813 !important;
+    }
+
+
+    .project-container {
+      transition: .5s;
+    }
+
+    .project-container .project {
+      background-size: cover;
+      width: 90px;
+      height: 90px;
+      transition: .5s;
+      border-radius: 50%;
+    }
+
+    .project-container:hover .project {
+      background-image: none !important;
+    }
+
+    .opacity-100 {
+      opacity: 1;
+    }
+
+    .m-color-bg-hover-options:hover {
+      background-color: #212529 !important;
+    }
+
+    .m-color-bg-hover:hover {
+      -webkit-box-shadow: 0 4px 15px -5px #fdb813 !important;
+      box-shadow: 0 4px 15px -5px #fdb813 !important;
+    }
+
+    .invalid-feedback {
+      display: block !important;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+
+    .form-signin {
+      width: 100%;
+      max-width: 350px;
+      padding: 15px;
+      margin: auto;
+    }
+
+
+    .border-s {
+    border-left: 1px solid #3b4253 !important;
+    }
+
+    .border-e {
+    border-right: 1px solid #3b4253 !important;
+    }
+
+    .my-border {
+    border: 1px solid #3b4253 !important;
+    }
+
+    input {
+      color: #b4b7bd !important;
+      border-color: #3b4253 !important;
+    }
+
+    .form-signin .form-floating:focus-within {
+      z-index: 2;
+    }
+
+    .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="text"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .gg-spinner {
+      transform: scale(var(--ggs, 1))
+    }
+
+    .gg-spinner,
+    .gg-spinner::after,
+    .gg-spinner::before {
+      box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      top: 2px;
+      left: -3px;
+      width: 20px;
+      height: 20px
+    }
+
+    .gg-spinner::after,
+    .gg-spinner::before {
+      content: "";
+      position: absolute;
+      border-radius: 100px
+    }
+
+    .gg-spinner::before {
+      animation: spinner 1s cubic-bezier(.6, 0, .4, 1) infinite;
+      border: 3px solid transparent;
+      border-top-color: currentColor
+    }
+
+    .gg-spinner::after {
+      border: 3px solid;
+      opacity: .2
+    }
+
+    @keyframes spinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      to {
+        transform: rotate(359deg)
+      }
+    }
+
+    /* inverse buttons */
+    .btn-inverse-primary {
+      background-color: rgba(70, 77, 238, 0.1) !important;
+      background-image: none !important;
+      border-color: rgba(70, 77, 238, 0) !important;
+      color: #fff !important;
+
+    }
+
+
+    .btn-inverse-secondary {
+      background-color: rgba(0, 23, 55, 0.3) !important;
+      background-image: none !important;
+      border-color: rgba(0, 23, 55, 0) !important;
+      color: #b4b7bd !important;
+    }
+
+    .btn-inverse-success {
+      background-color: rgba(13, 219, 185, 0.1) !important;
+      background-image: none !important;
+      border-color: rgba(13, 219, 185, 0) !important;
+      color: #0ddbb9 !important;
+
+    }
+
+    .btn-inverse-warning {
+      background-color: rgba(252, 213, 59, 0.1) !important;
+      background-image: none !important;
+      border-color: rgba(252, 213, 59, 0) !important;
+      color: #fcd53b !important;
+
+    }
+
+    .btn-inverse-danger {
+      background-color: rgba(238, 91, 91, 0.08) !important;
+      background-image: none !important;
+      border-color: rgba(238, 91, 91, 0) !important;
+      color: #ee5b5b !important;
+
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .swal2-popup.swal2-toast {
+      padding: 3px !important;
+
+    }
+
+    .swal2-popup.swal2-toast .swal2-title {
+      text-transform: capitalize;
+    }
+
+    .swal2-popup {
+      width: 80% !important;
+    }</style><link href="/css/app.56591574.css" rel="preload" as="style"><link href="/css/chunk-vendors.882a611f.css" rel="preload" as="style"><link href="/js/app.21d015cb.js" rel="preload" as="script"><link href="/js/chunk-vendors.53ca52f6.js" rel="preload" as="script"><link href="/css/chunk-vendors.882a611f.css" rel="stylesheet"><link href="/css/app.56591574.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but laravel-api-vue-jwt doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.53ca52f6.js"></script><script src="/js/app.21d015cb.js"></script></body></html>
